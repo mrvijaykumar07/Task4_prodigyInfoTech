@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+ display: flex;
+}
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto ;
+    position: fixed;
+}
+
+.navbar  a {
+    padding-right: 30px;
+    text-decoration: none;
+    color:white;
+}
+.navbar :hover {
+    background-color:transparent;
+    color: aqua;
+  }
+.left , .right{
+    display: flex;
+}
+.left{
+    width: 72vw;
+    color: aliceblue;
+    padding-top:8vh;
+    padding-left: 30px;
+    background-image:url(frontpagebgtask4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right{
+    background:linear-gradient(-45deg ,aqua , black 70%);
+    width:28vw;
+    height: 100vh;
+    color: aliceblue;
+    padding:12vh;
+}
+.icons .fa-brands{
+    padding-top: 50px;
+    color: #f1f1ee;
+
+}
+.icons{
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    position:fixed;
+    
+}
+
+.icons .fa-brands:hover {
+    background-color:transparent;
+    color: aqua;
+  }
+
+.content h1{
+color: rgb(54, 212, 223);
+padding-top: 10px;
+padding-bottom:20px;
+}
+.content h2 span{
+    color: aqua;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.content{
+    padding-left: 10rem;
+    padding-top:8rem;
+}
+.content p{
+    font-size: 1.2rem;
+    color: #f1f1ee;
+    max-width: 30rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 2rem;
+}
+
+.imgDesign .circle{
+aspect-ratio: 1;
+border-radius: 50%;
+position: absolute;
+top:50%;
+left: 70%;
+transform: translate(-50%,-50%);
+
+}
+.circle:nth-child(1){
+background:linear-gradient(90deg,transparent 50%,rgb(42, 32, 32) 50%);
+width:26rem;
+}
+.circle:nth-child(2){
+
+background-color:rgb(48, 42, 42);
+width: 22rem;
+background-image:url("smilephototask4.png") ;
+background-size: 100%;
+background-repeat: no-repeat;
+box-shadow:
+  0 0 3rem yellow;
+}
+.thirdPage{
+    background-color: rgb(216, 61, 180);
+    height: 100vh;
+    background-image: url(2ndpagebgtask4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+}
+
+
+.academic{
+    color:aqua;
+    padding-left: 9rem;
+    font-size: 15px;
+}
+.academic h2{
+    color:rgb(204, 204, 94);
+}
+.clg{
+    padding-top: 1.2rem;
+    display: flex;
+    max-width: 45vw;
+}
+.clg p{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+.clg:hover{
+    background-color: rgb(18, 10, 6) ;
+}
+
+.fourthPage{
+    background-color: rgb(204, 106, 8);
+        height: 100vh;
+    background-image: url(contactpagebgtask4.jpg);
+    background-size: cover;
+    
+    }.call{
+        padding: 8rem;
+        font-size: 3rem;
+    }
